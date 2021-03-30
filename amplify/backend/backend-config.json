@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "netflix0fb81070": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
