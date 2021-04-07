@@ -141,14 +141,13 @@ const MovieDetailsScreen = () => {
 
                         </View>
 
-
                         {currentSeason && (
                            <Picker
                            selectedValue={currentSeason.name}
                            onValueChange={(itemValue, itemIndex) => {
                                setCurrentSeason(seasons[itemIndex])
                            }}
-                           style={{color: 'white', width: 130 }}
+                           style={{color: 'white', width: 130}}
                            itemStyle={{backgroundColor: 'white'}}
                            dropdownIconColor={'white'}
                        >
@@ -157,6 +156,7 @@ const MovieDetailsScreen = () => {
                            ))}
                        </Picker>
                         )}
+
                     </View>
                 )}
             />

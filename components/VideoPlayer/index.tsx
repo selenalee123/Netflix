@@ -1,55 +1,56 @@
 ﻿import React, { useRef, useState, useEffect } from 'react'
-import { View, Text, StyleSheet, Button } from 'react-native';
-import { Video, AVPlaybackStatus } from 'expo-av';
+import { View, Text } from 'react-native'
+import { Video } from 'expo-av';
+import { Storage } from 'aws-amplify';
 import { Episode } from '../../types';
-import { Playback } from 'expo-av/build/AV';
 import styles from './styles';
+import { Playback } from 'expo-av/build/AV';
 
 interface VideoPlayerProps {
     episode: Episode;
 }
 
-export default function App(props: VideoPlayerProps) {
+const VideoPlayer = (props: VideoPlayerProps) => {
     const { episode } = props;
     const [videoURL, setVideoURL] = useState('');
 
-
-    const video = useRef<Playback>(null);
     const [status, setStatus] = useState({});
+    const video = useRef<Playback>(null);
 
-    useEffect(() =>{
-        if (!video){
+    useEffect(() => {
+        if (episode.video.startsWith('http')) {
+            setVideoURL(episode.video);
             return;
         }
-        ( async()=>{
+        Storage.get(episode.video).then(setVideoURL);
+    }, [episode])
+
+    useEffect(() => {
+        if (!video) {
+            return;
+        }
+        (async () => {
             await video?.current?.unloadAsync();
             await video?.current?.loadAsync(
-                { uri: episode.video },
+                { uri: videoURL },
                 {},
                 false
             );
-
         })();
-    },[episode])
+    }, [videoURL])
 
+    console.log(videoURL);
 
-    const handleVideoRef = (component) =>{
-        const playbackObject =component;
-        const source ={
-            uri: episode.video
-        };
-        playbackObject.loadAsync(
-            source,
-        )
+    if (videoURL === '') {
+        return null;
     }
 
     return (
-
         <Video
             ref={video}
             style={styles.video}
             source={{
-                uri: episode.video,
+                uri: videoURL,
             }}
             posterSource={{
                 uri: episode.poster,
@@ -57,11 +58,12 @@ export default function App(props: VideoPlayerProps) {
             posterStyle={{
                 resizeMode: 'cover',
             }}
+            usePoster={false}
             useNativeControls
             resizeMode="contain"
-            isLooping
             onPlaybackStatusUpdate={status => setStatus(() => status)}
         />
-
     )
 }
+
+export default VideoPlayer;
