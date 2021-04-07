@@ -26,6 +26,8 @@ Watch the movie on the go
 In app subscription/payment ( in progress) 
 The application adapts to any screen size. ( Android/ IOS)
 
+Mylinkedin: https://www.linkedin.com/in/kimkimly123/
+
 Demo
 
 ![.](assets/demo/Screenshot_1617116829.png)
