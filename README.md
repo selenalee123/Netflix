@@ -7,6 +7,9 @@ GraphQL
 AWS Storage
 AWS Amplify
 
+<img src="https://github.com/selenalee123/Netflix/blob/main/assets/demo/workflow.png?raw=true" width="600" height="300"/>
+
+
 Front End:
 React Native
 
