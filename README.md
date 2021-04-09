@@ -30,9 +30,9 @@ Mylinkedin: https://www.linkedin.com/in/kimkimly123/
 
 Demo
 
-![.](assets/demo/Screenshot_1617116829.png){:height="50%" width="50%"}
-![.](assets/demo/Screenshot_1617107541.png){:height="50%" width="50%"}
-![.](assets/demo/Screenshot_1617023197.png){:height="50%" width="50%"}
+![.](assets/demo/Screenshot_1617116829.png){:height="700px" width="400px"}
+![.](assets/demo/Screenshot_1617107541.png){:height="700px" width="400px"}
+![.](assets/demo/Screenshot_1617023197.png){:height="700px" width="400px"}
 
 
 
