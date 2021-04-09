@@ -26,8 +26,9 @@ Watch the movie on the go
 In app subscription/payment ( in progress) 
 The application adapts to any screen size. ( Android/ IOS)
 
+Author: Kim Kim Ly 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/1200px-Linkedin_icon.svg.png" width="50" height="50"/>
-Mylinkedin: https://www.linkedin.com/in/kimkimly123/
+https://www.linkedin.com/in/kimkimly123/
 
 Demo
 <p align="center">
