@@ -13,10 +13,10 @@ React Native
 Platform for the app : 
 Android/IOS/IPAD/Android tablet
 
-Runing Project Locally
+Running Project Locally
 Install dependencies: run npm install in root project
 
-Run project: npm run dev
+Run project: npm run expo
 User Stories:
 User can signin using quick authentication from AWS( phone number/ email)
 User can search for movies and TV shows on TMDb
