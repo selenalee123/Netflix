@@ -30,10 +30,10 @@ Mylinkedin: https://www.linkedin.com/in/kimkimly123/
 
 Demo
 
-![.](assets/demo/Screenshot_1617116829.png){:height="700px" width="400px"}
-![.](assets/demo/Screenshot_1617107541.png){:height="700px" width="400px"}
-![.](assets/demo/Screenshot_1617023197.png){:height="700px" width="400px"}
+<img src="https://github.com/selenalee123/Netflix/blob/main/assets/demo/Screenshot_1617116829.png?raw=true" width="400" height="790">
+<img src="https://github.com/selenalee123/Netflix/blob/main/assets/demo/Screenshot_1617107541.png?raw=true" width="400" height="790">
 <img src="https://github.com/selenalee123/Netflix/blob/main/assets/demo/Screenshot_1617023197.png?raw=true" width="400" height="790">
+
 
 
 
