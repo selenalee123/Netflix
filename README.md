@@ -7,9 +7,6 @@ GraphQL
 AWS Storage
 AWS Amplify
 
-<img src="https://github.com/selenalee123/Netflix/blob/main/assets/demo/workflow.png?raw=true" width="600" height="300"/>
-
-
 Front End:
 React Native
 
@@ -29,6 +26,7 @@ Watch the movie on the go
 In app subscription/payment ( in progress) 
 The application adapts to any screen size. ( Android/ IOS)
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/1200px-Linkedin_icon.svg.png" width="50" height="50"/>
 Mylinkedin: https://www.linkedin.com/in/kimkimly123/
 
 Demo
