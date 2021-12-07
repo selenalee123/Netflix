@@ -37,8 +37,8 @@ Demo
 <img src="https://github.com/selenalee123/Netflix/blob/main/assets/demo/Screenshot_1617116829.png?raw=true" width="300" height="600"/>
 <img src="https://github.com/selenalee123/Netflix/blob/main/assets/demo/Screenshot_1617107541.png?raw=true" width="300" height="600"/>
 <img src="https://github.com/selenalee123/Netflix/blob/main/assets/demo/Screenshot_1617023197.png?raw=true" width="300" height="600"/>
-</p>
 <img src="https://github.com/selenalee123/Netflix/blob/main/assets/demo/authentication.png?raw=true">
+</p>
 
 
 
